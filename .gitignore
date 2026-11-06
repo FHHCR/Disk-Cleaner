@@ -1,0 +1,22 @@
+# ============ Disk-Cleaner .gitignore ============
+
+# 运行时日志（含用户本地路径，不应上传）
+logs/
+
+# 测试目录（run-tests.ps1 会自动创建，无需上传）
+TestFiles/
+
+# 内部开发记录（ledger，非产品文档）
+docs/progress.md
+
+# 系统临时文件
+*.tmp
+*~
+~$*
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDE 文件
+.vscode/
+.idea/
