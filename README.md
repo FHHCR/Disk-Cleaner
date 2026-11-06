@@ -71,7 +71,7 @@ powershell -ExecutionPolicy Bypass -File .\DiskCleaner.ps1
 
 ### 第 4 步：选择文件
 
-在文件列表表格中，勾选要清理的文件（勾选第一列的复选框），或点击 **"全选文件"**。
+在文件列表表格中，点击要清理的文件行（可按住 `Ctrl` 键多选），或点击 **"全选文件"** 复选框选中全部。
 
 ### 第 5 步：清理
 
@@ -138,6 +138,8 @@ Disk-Cleaner/
 │   ├── Videos/
 │   ├── Temp/
 │   └── Thumbnails/
+├── LICENSE                  # MIT 许可证
+├── .gitignore               # GitHub 排除规则
 └── README.md                # 本文件
 ```
 
@@ -179,6 +181,12 @@ powershell -ExecutionPolicy Bypass -File .\DiskCleaner.ps1
 ### Q6: 如何查看操作日志？
 
 **A**: 打开 `logs\cleaner-log.csv` 文件。日志记录了每次扫描和清理操作的时间、类型和结果。
+
+## 许可证
+
+本项目使用 **MIT License** 开源。详见 [LICENSE](LICENSE) 文件。
+
+简言之，你可以自由地使用、修改、复制、分发和商用本软件，只需保留版权声明和许可声明。本软件按"原样"提供，不附带任何形式的明示或暗示的担保。
 
 ## 免责声明
 
